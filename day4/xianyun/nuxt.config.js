@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-01 11:05:07
- * @LastEditTime: 2019-09-04 16:19:10
+ * @LastEditTime: 2019-09-05 09:48:10
  * @LastEditors: Please set LastEditors
  */
 import pkg from './package'
@@ -44,6 +44,7 @@ export default {
   */
   plugins: [
     '@/plugins/element-ui',
+    '@/plugins/axios',
     //  本地存储的插件
     { src: '@/plugins/localStorage.js', ssr: false }
   ],
